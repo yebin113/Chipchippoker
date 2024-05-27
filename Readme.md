@@ -17,20 +17,24 @@
 
 ### 배경 🗺️
 
-우리는 프로젝트나 단체 활동에서 모르는 사람들과 팀을 꾸려 일을 시작할 때 어색함을 느끼곤 합니다.`칩칩포커`는 이러한 어색함이 제대로 해소되지 않고, 프로젝트를 진행했을 때 생기는 문제에 집중했습니다.
-
-`어색함`은 서로에게 실례가 될까봐 의견을 제시하지 못하거나, 원하지 않는 의견에 어쩔 수 없게 동의하여 프로젝트의 진행 과정과 성과에 불이익을 초래합니다.
-
-반면 적절한`아이스 브레이킹`으로 팀원들간에 친밀감이 있는 상태에서 프로젝트가 진행되면 일의 성과가 더 높고, 의사 결정에 긍정적인 결과가 있다고 합니다.
-
-그래서 우리는 아이스 브레이킹 게임 중 하나로 인디언 포커를 골랐지만, 카드가 필요하고 사람들이 모여서 해야 되는 공간적 제약이 있었습니다.
-
-이를 해결하기 위해 칩칩포커를 기획하게 되었습니다.
+인디언 포커 게임을 혹시 아시나요?
+<br/>
+어렵지 않은 룰임에도 꽤나 전략적인 게임이라 매니아 층이 두터운 게임인데요
+<br/>
+<br/>
+친구들과 함께 이런 전략적인 게임을 즐길 때, 상대방의 **심리적인 부분**을 파악하는 것이 매우 중요한 포인트가 됩니다.
+<br/>
+또한, 카드 게임을 진행하려면 실물 트럼프 카드를 가지고 인원이 직접 모여서 진행해야하는 오프라인의 불편함이 있죠.
+<br/>
+<br/>
+저희는 이러한 배경들을 토대로 **상대방의 표정을 보며** 좀 더 전략적으로 게임을 진행하고, **오프라인의 한계를 넘어서는** 
+<br/>
+온라인 인디언 포커 서비스, ***칩칩포커***를 개발하게 되었습니다.
 
 ### 목적 🥅
 
-- **처음 팀을 이룬 사람들이 효과적으로 아이스브레이킹을 하게 하자**
-- **물리적, 공간적 제약 없이 인디언 포커 게임을 즐기게 하자**
+- **물리적, 공간적 제약 없이** 인디언 포커 게임을 즐기게 하자
+- **상대방의 얼굴을 보며 심리적인 요소들을 추가**해 전략적으로 게임을 즐기게 하자.
 
 ### 의의
 
@@ -41,15 +45,18 @@
 
 ### 서비스 화면 이미지
 
-<img src="https://github.com/yebin113/django_prac/assets/139421100/20aea368-f586-4e81-94c5-e09e75df2d1e" width="200" height="120">
-<img src="https://github.com/yebin113/django_prac/assets/139421100/a58f2b41-654a-49a2-b086-a9ab58c8a469" width="200" height="120">
-<img src="https://github.com/yebin113/django_prac/assets/139421100/7dcbf8df-7215-4de9-9bbe-78ddb43c2732" width="200" height="120">
-<img src="https://github.com/yebin113/django_prac/assets/139421100/08fd293a-35c2-4acc-b5ea-4ac0a232ad5c" width="200" height="120">
-<img src="https://github.com/yebin113/django_prac/assets/139421100/df65201f-40aa-44ce-aa0e-8a111dbb9c44" width="200" height="120">
-<img src="https://github.com/yebin113/django_prac/assets/139421100/38c83659-6dab-415c-9802-6bbfe1649f0c" width="200" height="120">
-<img src="https://github.com/yebin113/django_prac/assets/139421100/ff828564-357d-470f-81b9-958dfa456b6d" width="200" height="120">
-<img src="https://github.com/yebin113/django_prac/assets/139421100/3369b5bc-d656-4297-9224-61db83afabc9" width="200" height="120">
-<img src="https://github.com/yebin113/django_prac/assets/139421100/9ea98cb7-57aa-4ae7-a531-95bea1508242" width="200" height="120">
+| <img src="/assets/게임화면1.gif" width="250"> | <img src="/assets/게임화면2.gif" width="250">  | <img src="/assets/게임화면3" width="250"> |
+|:----------------------------------:|:----------------------------------------------:|:------------------------------------------------------------:|
+|              게임 화면 1               |                    게임 화면 2                     |                           게임 화면 3                            |
+
+|     <img src="/assets/랭킹.gif" width="250">      | <img src="/assets/가이드북.gif" width="250"> | <img src="/assets/프로필.gif" width="250"> |
+|:------------------------------------------------------:|:----------------------------------------------------------:|:-----------------------------------------------------------:|
+|                         랭킹 화면                          |                            가이드북                            |                           프로필 화면                            |
+
+<br>
+
+### 화면 설명
+
 
 ### 시연 영상
 
@@ -87,11 +94,11 @@
 
 ## 게임 기본 설명
 
-<img src="https://github.com/SuyeonSun/test/assets/77823761/e071de34-8f75-4460-82fa-6c191ba6877a" width="500" height="300">
-<img src="https://github.com/SuyeonSun/test/assets/77823761/c1cc3cbc-b48b-47d2-8268-9edff1e099a6" width="500" height="300">
-<img src="https://github.com/SuyeonSun/test/assets/77823761/ac09adf1-3753-411e-8994-c66f99794a61" width="500" height="300">
-<img src="https://github.com/SuyeonSun/test/assets/77823761/5e0e6359-b10e-43a3-92f5-fc74ace35428" width="500" height="300">
-<img src="https://github.com/SuyeonSun/test/assets/77823761/dd48c377-87b9-40e3-8a59-f0ae33dcca0e" width="500" height="300">
+랜덤으로 카드를 뽑아 자신의 카드는 보지 않고 상대방의 카드만 본 채로 배팅을 하는 게임입니다.
+<br/>
+기본적인 룰은 높은 숫자를 가진 플레이어, 또는 마지막까지 살아남은 플레이어가 이기는 간단한 룰을 가지고 있습니다.
+<br/>
+심리적인 요소를 이용하여 상대방을 포기시킬 수도, 속일 수도 있는 전략이 필요한 게임입니다.
 
 ## 특별 기능
 
