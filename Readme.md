@@ -4,7 +4,7 @@
 
 ### 개요 📰
 
-- 한줄 소개 : 온택트에 익숙해진 현대인을 위한`웹 화상 게임`서비스
+- 한줄 소개 : 온택트에 익숙해진 현대인을 위한 `웹 화상 게임`서비스
 - 서비스 명 :**칩칩포커(ChipChipPoker)**
 - 서비스 개발 기간: 2024.01.08 ~ 2024.02.16
 
@@ -12,6 +12,10 @@
 
 - 새 학기를 맞이한 학생들
 - 카드 게임 & 보드 게임을 좋아하는 사람들
+
+### 성과 🥇
+- #### SSAFY 10기 공통 프로젝트 우수상 수여
+<img src="./assets/webRTC상장.png" width="300">
 
 ## 2. 기획 배경
 
@@ -41,22 +45,28 @@
 - 간단한 게임으로 서로를 더 잘 알아가고, 아이스브레이킹의 효과
 - 비대면으로 직접 만나지 않고, 카드 없이도 즐길 수 있는 온라인 웹 화상 게임
 
+
 ## 3. 서비스 화면
 
 ### 서비스 화면 이미지
 
-| <img src="/assets/게임화면1.gif" width="250"> | <img src="/assets/게임화면2.gif" width="250">  | <img src="/assets/게임화면3" width="250"> |
+| <img src="./assets/게임화면1.gif" width="250"> | <img src="./assets/게임화면2.gif" width="250">  | <img src="./assets/게임화면3.gif" width="250"> |
 |:----------------------------------:|:----------------------------------------------:|:------------------------------------------------------------:|
 |              게임 화면 1               |                    게임 화면 2                     |                           게임 화면 3                            |
 
-|     <img src="/assets/랭킹.gif" width="250">      | <img src="/assets/가이드북.gif" width="250"> | <img src="/assets/프로필.gif" width="250"> |
+|     <img src="./assets/랭킹.gif" width="250">      | <img src="./assets/가이드북.gif" width="250"> | <img src="./assets/프로필.gif" width="250"> |
 |:------------------------------------------------------:|:----------------------------------------------------------:|:-----------------------------------------------------------:|
 |                         랭킹 화면                          |                            가이드북                            |                           프로필 화면                            |
 
 <br>
 
 ### 화면 설명
-
+<img src="./assets/메인페이지- 기타.png"/>
+<img src="./assets/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%9E%AD%ED%82%B9.png"/>
+<img src="./assets/메인페이지-방 목록.png"/>
+<img src="./assets/메인페이지-상단 버튼 1.png"/>
+<img src="./assets/메인페이지-상단 버튼 2.png"/>
+<img src="./assets/메인페이지-친구 목록.png"/>
 
 ### 시연 영상
 
@@ -105,9 +115,9 @@
 ### 매칭
 
 - 매칭은 친선모드와 경쟁모드로 나뉘며, 인원수를 선택할 수 있습니다.
-- 친선 모드
+- **친선 모드**
     - 해당 인원수의 게임방이 존재할 시 그 방으로 즉시 입장하며, 게임방이 존재하지 않는 경우에는 입장이 불가능합니다.
-- 경쟁 모드
+- **경쟁 모드**
     - 경쟁 모드 매칭을 통해 게임을 진행하면, 해당 인원이 전부 매칭이 될 때까지 대기하며 매칭이 완료될 시 즉시 게임방으로 이동합니다.
     - 경쟁 모드는 게임 종료 시 코인 개수에 따라, 유저의 포인트를 변화시키며 이를 기반으로 랭킹을 매길 수 있습니다.
 
@@ -117,8 +127,8 @@
 
 ### 표정 인식
 
-- 남들이 나의 표정을 보고 패를 가늠하게 하는 인디언 포커의 특성을 살리기 위해, 표정 인식 기능을 넣었습니다. 카메라의 좌측 상단의 이모티콘을 통해 분노, 역겨움, 행복, 슬픔, 놀람, 평온 등 상대의 표정에서
-  드러나는 가장 큰 감정이 무엇인지 알 수 있습니다.
+- 남들이 나의 표정을 보고 패를 가늠하게 하는 인디언 포커의 특성을 살리기 위해, 표정 인식 기능을 넣었습니다.
+- 카메라의 좌측 상단의 이모티콘을 통해 분노, 역겨움, 행복, 슬픔, 놀람, 평온 등 상대의 표정에서 드러나는 가장 큰 감정이 무엇인지 알 수 있습니다.
 
 # **Ⅳ. 프로젝트 진행**
 
@@ -229,53 +239,3 @@
 2. Gitlab Setting > Webhook > Add new Webhook > Secret Token에 발급받은 토큰을 작성합니다.
 3. 생성된 Pipeline URL을 Webhook URL로 설정하고 push event를 추가합니다.
 
-# **Ⅵ. UI / UX
-
-## Figma
-
-- **WireFrame**
-
-  <img src="https://github.com/SuyeonSun/test/assets/77823761/8661b086-98c0-4819-8035-c3e1fcbe73c8" width="200" height="120">
-  <img src="https://github.com/SuyeonSun/test/assets/77823761/d7fd3b42-6d69-4fc8-afe4-f7de92e86c3c" width="200" height="120">
-  <img src="https://github.com/SuyeonSun/test/assets/77823761/8a82b8b6-6e6a-4ad4-bb47-94cd8bb28d04" width="200" height="120">
-
-## Logic Flow
-
-![Logic Flow](https://github.com/yebin113/django_prac/assets/139421100/9014fcc0-8161-4ad4-ae07-a50d67a1b2e7)
-
-## Design Component
-
-1. 로그인 페이지
-2. 메인 페이지
-3. 플레이 페이지
-4. 나의 프로필
-
-## Component Structure
-<img src="https://github.com/yebin113/django_prac/assets/139421100/0506e562-e150-4995-bc12-e722c1474765">
-
-## Assets(Custom)
-
-- **로고**
-
-  <img src="https://github.com/yebin113/django_prac/assets/139421100/f6f86b02-a4e7-4512-9029-ea93c2482323" width="200" height="100">
-
-- **카드**
-    - 네 개의 카드 세트 , 1~ 10까지의 카드 숫자
-    - 예시
-
-      ![카드앞면](https://github.com/yebin113/django_prac/assets/139421100/9609d9b8-1d7b-4030-944f-81f404b71931)
-
-    - 뒷면
-
-      ![카드 뒷면](https://github.com/yebin113/django_prac/assets/139421100/5b9c6fc1-9d7b-4891-a4d0-81330c7dcb4f)
-
-- **코인**
-    - 플레이어에 따라 다른 코인 디자인
-    - 예시
-
-      <img src="https://github.com/yebin113/django_prac/assets/139421100/2c7e34d1-8675-499e-a668-c76af324cd4e" width="100" height="100">
-- **티어**
-    - 레어, 다이아, 플래티넘, 골드, 실버, 브론즈 등의 티어 디자인
-        - 예시
-
-      <img src="https://github.com/SuyeonSun/test/assets/77823761/6b7fa029-16f0-42b6-9e71-56a7360840d8" width="100" height="100">
