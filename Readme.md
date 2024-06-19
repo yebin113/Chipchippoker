@@ -15,7 +15,7 @@
 
 ### 성과 🥇
 - #### SSAFY 10기 공통 프로젝트 우수상 수여
-<img src="./assets/webRTC상장.png" width="300">
+<img src="./assets/webRTC상장.PNG" width="300">
 
 ## 2. 기획 배경
 
